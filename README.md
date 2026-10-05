@@ -29,7 +29,7 @@ learning model for fraud detection.
 |---|---|
 | Account activity | Active accounts far outnumber Frozen, Closed, and Dormant combined |
 | Transaction volume trend | Peaked in 2023, declined through 2024–2025 |
-| Currency | Fairly even split across PLN, USD, EUR, CHF, GBP — EUR slightly leads by amount |
+| Currency | Fairly even split across PLN, USD, EUR, CHF, GBP. EUR slightly leads by amount |
 | International transactions | Nearly a 50/50 split between domestic and international |
 | Dominant payment method | **SEPA**, both by transaction count and total amount |
 | Fees | Fairly uniform across transaction type, channel, branch, payment method, and customer segment no single factor stands out |
