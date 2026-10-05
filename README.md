@@ -32,7 +32,7 @@ learning model for fraud detection.
 | Currency | Fairly even split across PLN, USD, EUR, CHF, GBP — EUR slightly leads by amount |
 | International transactions | Nearly a 50/50 split between domestic and international |
 | Dominant payment method | **SEPA**, both by transaction count and total amount |
-| Fees | Fairly uniform across transaction type, channel, branch, payment method, and customer segment — no single factor stands out |
+| Fees | Fairly uniform across transaction type, channel, branch, payment method, and customer segment no single factor stands out |
 | AML status | Majority of checks **Passed**; remainder split across Failed, Pending, Manual Review, and Skipped |
 | KYC status | **Verified** is the most common status, followed by roughly equal shares of Pending, Expired, and Not Required |
 | Correlation between numeric features | Amount, balance, fee, risk score, and credit score show **no meaningful linear correlation** with each other |
@@ -51,7 +51,7 @@ and account features (one-hot encoded categoricals, scaled numericals, 80/20 tra
 
 **Honest interpretation:** An ROC-AUC of ~0.50 means the model performs no better
 than random guessing. This indicates that, within this dataset, `fraud_flag` does
-not carry a learnable signal from the available features — consistent with the
+not carry a learnable signal from the available features consistent with the
 correlation heatmap, which showed no strong linear relationships between numeric
 fields. Rather than overstate the model's performance, this result is reported as-is.
 
@@ -62,16 +62,18 @@ fields. Rather than overstate the model's performance, this result is reported a
 
 ## 🚀 How to Run
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/jobinjosej253/banking-fraud-risk-analysis.git
 cd banking-fraud-risk-analysis
 pip install pandas numpy matplotlib seaborn scikit-learn
 jupyter notebook notebooks/banking_dataanalysis.ipynb
 ```
 
 ## 📂 Repo Structure
+```
 ├── finance_banking_transactions_2022_2025.csv
 ├── banking_dataanalysis.ipynb
 └── README.md
+```
 
 ## 📄 License
 MIT
